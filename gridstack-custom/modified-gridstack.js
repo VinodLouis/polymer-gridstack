@@ -1,3 +1,10 @@
+/*
+Originla base : https://github.com/troolee/gridstack.js
+credit to : (c) 2014-2017 Pavel Reznikov, Dylan Weiss
+Modified for polymer support
+Polymer Addition : Vinod Louis
+*/
+
 (function (scope, _) {
 
     var Utils = {

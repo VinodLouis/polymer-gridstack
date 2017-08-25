@@ -11,10 +11,13 @@
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
     <link rel="import" href="../polymer-gridstack.html">
-
+    <link rel="import" href="../polymer-gridstack-style.html">
     <custom-style>
       <style is="custom-style" include="demo-pages-shared-styles">
       </style>
+    </custom-style>
+    <custom-style>  
+      <style is="custom-style" include="polymer-gridstack-style"></style>
     </custom-style>
   </head>
   <body>
@@ -22,6 +25,7 @@
       <h3>Basic polymer-gridstack demo</h3>
       <demo-snippet>
         <template>
+          <style include="polymer-gridstack-style"></style>
           <style type="text/css">
             :root{
               --background-color:#666666;
