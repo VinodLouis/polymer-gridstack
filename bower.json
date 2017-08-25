@@ -1,0 +1,19 @@
+{
+  "name": "polymer-gridstack",
+  "description": "A drag n drop resize gridstack extension for polymer elements",
+  "main": "polymer-gridstack.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "jquery": ">= 3.1.0",
+    "jquery-ui": ">= 1.12.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}
