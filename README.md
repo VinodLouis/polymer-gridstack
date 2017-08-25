@@ -53,5 +53,5 @@ document.getElementById("grid1").dataProperties = {
     width: 12
 }
 ```
-For a list of options see : https://github.com/troolee/gridstack.js/tree/develop/doc#options
+For a list of options see : https://github.com/troolee/gridstack.js/tree/develop/doc#options and for a live demo visit http://www.vinodlouis.com/demos/polymer-gridstack-demo/
 

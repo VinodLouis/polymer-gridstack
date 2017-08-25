@@ -1,6 +1,6 @@
 {
   "name": "polymer-gridstack",
-  "version":"0.2.0",
+  "version":"1.0.0",
   "authors":"Vinod Louis <vinodlouis@hotmail.com> (http://www.vinodlouis.com)",
   "description": "A drag n drop resize gridstack extension for polymer elements",
   "main": "polymer-gridstack.html",
