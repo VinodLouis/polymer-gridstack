@@ -1,12 +1,26 @@
 {
   "name": "polymer-gridstack",
+  "version": "0.0.1",
+  "authors": "Vinod Louis <vinodlouis@hotmail.com> (http://www.vinodlouis.com)",
   "description": "A drag n drop resize gridstack extension for polymer elements",
   "main": "polymer-gridstack.html",
+  "ignore": [
+    "bower_components",
+    "images",
+    "test",
+    "bower.json",
+    "polymer.json"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "jquery": ">= 3.1.0",
     "jquery-ui": ">= 1.12.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "font-awesome": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VinodLouis/polymer-gridstack"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
