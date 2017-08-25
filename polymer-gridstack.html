@@ -1,0 +1,50 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<script src="../jquery/dist/jquery.min.js"></script>
+<script src="../jquery-ui/jquery-ui.min.js"></script>
+<script src="../underscore/underscore-min.js"></script>
+<script src="gridstack-custom/modified-gridstack.js"></script>
+
+<dom-module id="polymer-gridstack">
+  <link href="gridstack-custom/gridstack.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+    
+  <template>
+    <style>
+      :host {
+        display: block;
+        background-color: var(--background-color,#999999);
+        padding:var(--padding-all,10px 0px);
+      }
+    </style>
+    <slot></slot>          
+  </template>
+
+  <script>
+    /** 
+     * `polymer-gridstack`
+     * A drag n drop resize gridstack extension for polymer elements
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class PolymerGridstack extends Polymer.Element {
+      static get is() { return 'polymer-gridstack'; }
+      static get properties() {
+        return {
+          dataProperties: {
+            type: Object
+          }
+        };
+      }
+      ready(){
+        super.ready();
+        console.log(this.dataProperties);
+        $(this.firstElementChild).gridstack(this.dataProperties);
+      }
+    }
+
+    window.customElements.define(PolymerGridstack.is, PolymerGridstack);
+  </script>
+</dom-module>
